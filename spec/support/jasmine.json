@@ -1,0 +1,17 @@
+{
+  "spec_dir": "build/tests",
+  "spec_files": [
+   "./models/user.spec.js",
+   "./models/product.spec.js",
+   "./models/order.spec.js",
+   "./endPoints/users.spec.js",
+   "./endPoints/products.spec.js",
+   "./endPoints/orders.spec.js",
+    "./**/*[sS]pec.js"
+  ],
+  "helpers": [
+      "helpers/**/*.js"
+  ],
+  "stopSpecOnExpectationFailure": false,
+  "random": false
+}
